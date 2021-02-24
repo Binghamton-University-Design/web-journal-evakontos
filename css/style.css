@@ -3,12 +3,12 @@
 body{
 	margin: 0;
 	background: black;
-	color:white;
+	color: white;
 	font-family: 'Lato', monospace;
 	font-weight: 300;
 }
 
-h1,h2,h3,h4, p {
+h1, h2, h3, h4, p {
 	margin-top: 0;
 	margin-bottom: 1em;
 }
@@ -21,7 +21,6 @@ h1, h2 {
 	margin: 2em auto;
 	max-width: 1200px;
 }
-
 
 #main{
 	background: pink;
@@ -37,7 +36,7 @@ h1, h2 {
 	background: purple;
 }
 
-@media (min-width: 699px) {
+@media (max-width: 699px) {
 
 	#wrapper {
 		margin: 0em auto;
