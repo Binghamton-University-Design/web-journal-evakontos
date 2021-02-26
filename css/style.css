@@ -23,17 +23,34 @@ h1, h2 {
 }
 
 #main{
-	background: pink;
+	background: #333;
 	margin: 2em;
 	padding: 2em;
 }
 
 #sidebar {
-	background: blue;
+	/*background: blue;*/
 }
 
+#logo {
+	padding: 3em 0;
+}
+
+#logo h1 {
+	margin: 0;
+}
+
+#logo img, .item img { 
+	width: 100%;
+	height: auto;
+}
+
+	.item img {
+		margin-bottom: 2em;
+	}
+
 #content{
-	background: purple;
+	/*background: purple;*/
 }
 
 @media (max-width: 699px) {
