@@ -4,8 +4,8 @@ body{
 	margin: 0;
 	background: black;
 	color: white;
-	font-family: 'Lato', monospace;
-	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
 }
 
 h1, h2, h3, h4, p {
@@ -14,18 +14,19 @@ h1, h2, h3, h4, p {
 }
 
 h1, h2 {
-	font-weight: 700;
+	font-weight: 600;
+	font-size: 2.5em;
 }
 
 #wrapper {
-	margin: 2em auto;
+	margin: 3em auto;
 	max-width: 1200px;
 }
 
 #main{
-	background: #333;
+	background: #131315;
 	margin: 2em;
-	padding: 2em;
+	padding: 3em;
 }
 
 #sidebar {
@@ -33,7 +34,7 @@ h1, h2 {
 }
 
 #logo {
-	padding: 3em 0;
+	padding: 2em 0;
 }
 
 #logo h1 {
@@ -41,7 +42,7 @@ h1, h2 {
 }
 
 #logo img, .item img { 
-	width: 100%;
+	width: 117%;
 	height: auto;
 }
 
@@ -49,8 +50,17 @@ h1, h2 {
 		margin-bottom: 2em;
 	}
 
-#content{
-	/*background: purple;*/
+#content img, .item img { 
+	width: 88%;
+	height: auto;
+	margin-bottom: 1.5em;
+}
+
+
+#one{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	font-style: italic;
 }
 
 @media (max-width: 699px) {
