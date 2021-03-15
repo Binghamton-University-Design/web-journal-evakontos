@@ -4,7 +4,7 @@ body{
 	margin: 0;
 	background: black;
 	color: white;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 200;
 }
 
@@ -18,23 +18,54 @@ h1, h2 {
 	font-size: 2.5em;
 }
 
-#wrapper {
-	margin: 2em auto;
-	max-width: 1200px;
+#caption{
+	font-family: 'Rubik', sans-serif;
+	font-weight: 200;
+	font-style: italic;
 }
 
 #main{
 	background: #131315;
 	margin: 2em;
+	margin-top:1.5em;
 	padding: 3em;
 }
 
-#margin{
-	font-weight: 700;
-	font-size: 2em;
-	margin-top: 1em;
-	margin-bottom: 0em;
-	margin-left: 2em;
+.topnav {
+  background-color: #black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+.topnav-right {
+  float: right;
+  margin-right: 3em;
+}
+
+
+.topnav a:hover {
+  background-color: black;
+  color: blue;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+#wrapper {
+	margin: 1em auto;
+	max-width: 1200px;
 }
 
 #sidebar {
@@ -64,10 +95,23 @@ h1, h2 {
 	margin-bottom: 1.5em;
 }
 
-#one{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 200;
-	font-style: italic;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 40%;
+  padding: 8px;
+  column-gap: 2em;
+  grid-row-gap: 2em;
+  margin-left: 5em;
+  margin-top: 5em;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin:auto;
 }
 
 @media (max-width: 699px) {
