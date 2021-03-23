@@ -18,14 +18,19 @@ h1, h2{
 
 #caption{
 	font-family: 'Lexend', sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	font-style: italic;
 }
 
+#rules{
+	font-family: 'Lexend', sans-serif;
+	font-weight: 500;
+}
+
 #main{
-	background: #131315;
+	background: white;
 	margin: 2em;
-	margin-top:1.5em;
+	margin-top: 1.5em;
 	padding: 3em;
 }
 
@@ -52,7 +57,6 @@ h1, h2{
 }
 
 .topnav a:hover {
-  background-color: white;
   color: blue;
 }
 
@@ -67,17 +71,45 @@ h1, h2{
 
 #wrapper2 {
 	margin-left: 5em;
-	margin-right: 18em;
+	margin-right: 23em;
 	margin-top: 3em;
 	max-width: 1200px;
 	color: black;
-	font-size: 1.6em;
+	font-size: 1.5em;
+}
+
+#wrapper3{
+	margin: 1em auto;
+	margin-left: 5em;
+	margin-right: 18em;
+}
+
+#content{
+	color: black;
 }
 
 #content img, .item img { 
 	width: 88%;
 	height: auto;
-	margin-bottom: 1.5em;
+	margin-bottom: 0em;
+}
+
+a:link {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
 }
 
 #sidebar {
